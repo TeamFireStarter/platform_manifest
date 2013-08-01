@@ -3,11 +3,16 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+
+  <remote  name="TeamFire"
+           fetch="https://github.com/"
+           review="code.mnet08.com/8082" />
+
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="TeamFireStarter/build" remote="TeamFire" revision="Fire-m2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -383,4 +388,5 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <project path="platform_manifest" name="TeamFireStarter/platform_manifest" remote="TeamFire" revision="Fire-m2" />
 </manifest>
