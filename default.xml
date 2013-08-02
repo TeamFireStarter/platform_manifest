@@ -387,6 +387,8 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor_samsung" name="TeamFireStarter/vendor_samsung" remote="TeamFire" revision="Fire-m2" />
+
 
   <project path="platform_manifest" name="TeamFireStarter/platform_manifest" remote="TeamFire" revision="Fire-m2" />
 </manifest>
