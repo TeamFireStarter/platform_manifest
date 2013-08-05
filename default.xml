@@ -6,7 +6,7 @@
 
   <remote  name="TeamFire"
            fetch="https://github.com/"
-           review="code.mnet08.com/8082" />
+           review="code.mnet08.com" />
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
