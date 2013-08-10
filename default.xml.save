@@ -392,7 +392,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/samsung" name="TeamFireStarter/vendor_samsung" remote="TeamFire" revision="Fire-m2" />
 
-  <project path="kernel/samsung/smdk4210" name="TeamFireStarter/kernel_samsung_smdk4210" remote="TeamFire" revision="Fire-m2" />
+  <project path="kernel/samsung/smdk4210" name="TeamFireStarter/kernel_samsung_smdk4412" remote="TeamFire" revision="Fire-m2" />
 
 
   <project path="platform_manifest" name="TeamFireStarter/platform_manifest" remote="TeamFire" revision="Fire-m2" />
