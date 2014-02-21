@@ -5,10 +5,9 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="TeamFire"
-           fetch="https://github.com/"
-           review="code.mnet08.com" />
+           fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-4.3_r2.1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
@@ -390,10 +389,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/samsung" name="TeamFireStarter/vendor_samsung" remote="TeamFire" revision="Fire-m2" />
-
-  <project path="kernel/samsung/smdk4210" name="TeamFireStarter/kernel_samsung_smdk4210" remote="TeamFire" revision="Fire-m2" />
-
-
-  <project path="platform_manifest" name="TeamFireStarter/platform_manifest" remote="TeamFire" revision="Fire-m2" />
+  
+    
 </manifest>
