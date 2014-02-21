@@ -4,11 +4,15 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
            
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+           
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="android_build" remote="omnirom" revision="android-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
