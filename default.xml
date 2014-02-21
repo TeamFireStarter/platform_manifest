@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
            
+  <remote name="omnirom"
+          fetch="https://github.com/omnirom"
+           
   <default revision="refs/tags/android-4.4.2_r2" 
            remote="aosp"
            sync-j="4" />
